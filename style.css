@@ -1,0 +1,151 @@
+body {
+	background: #cedce7; /* Old browsers */
+	background: -moz-linear-gradient(left, #cedce7 0%, #596a72 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 */
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	opacity: 0.8;
+	text-shadow: 1px 5px 10px #888;
+}
+
+.fight {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.checked {
+	display: none;
+}
+
+.p1Img, .p2Img {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.rock {
+	background-image: url(img/rock.png);
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center 0px;
+}
+
+.paper {
+	background-image: url(img/paper.png);
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center 4px;
+}
+
+.scissors {
+	background-image: url(img/scissors.png);
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}
+
+.container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+	transition: opacity 0.2s ease-in;
+}
+
+.img:hover {
+	cursor: pointer;
+	border: 1px solid #77BCFF;
+	opacity: 0.6;
+}
+
+.img:active {
+	border: 1px solid #77BCFF;
+	opacity: 0.6;
+}
+
+.img1 {
+	background-image: url(img/rock.png);
+	margin-right: 10px;
+	background-position: center -9px;
+}
+
+.img2 {
+	background-image: url(img/paper.png);
+	margin-right: 10px;
+	background-position: center 0px;
+}
+
+.img3 {
+	background-image: url(img/scissors.png);
+}
+
+h2, p {
+	text-align: center;
+	margin-top: 10px;
+	opacity: 0.8;
+	text-shadow: 1px 5px 10px #888;
+	line-height: 30px;
+}
+
+#p2ScoreDisplay {
+	margin-left: 10px;
+}
+
+footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+footer div {
+	width: 50px;
+}
+
+.insta img {
+	margin-top: 4px;
+}
+
+.linkedin img {
+	margin-left: 6px;
+	margin-top: 1px;
+}
+
+footer a {
+	opacity: 0.6;
+	transition: opacity 0.2s ease-in;
+}
+
+footer a:hover {
+	opacity: 1;
+}

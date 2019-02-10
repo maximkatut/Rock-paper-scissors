@@ -1,0 +1,50 @@
+body {
+	margin: 0 auto;
+	background-color: #232323;
+}
+
+* {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#display-color {
+	display: block;
+	font-size: 40px;
+}
+
+#display-result {
+	color: white;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #4070A4;
+	color: #fff;
+	font-size: 25px;
+}
+
+.nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav a{
+	color: #4070A4;
+	text-decoration: none;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+

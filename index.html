@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock, paper, scissors - the GAME!</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Make your choice!</h1>
+	<p class="title"></p>
+	<div class="fight">
+		<div class="p1Img">
+			<p class="">YOU</p>
+		</div>
+		<p>VS</p>
+		<div class="p2Img">
+			<p class="">AI</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="img img1" onclick="playR()"></div>
+		<div class="img img2" onclick="playP()"></div>
+		<div class="img img3" onclick="playS()"></div>
+	</div>
+	<div class="result-box">
+		<h2>Score:</h2>
+		<p>You: <span id="p1ScoreDisplay">0</span><span id="p2ScoreDisplay"> 0</span> :AI</p>
+	</div>
+	<footer>
+		<div class="facebook"><a href="https://facebook.com/maxbaravy"><img src="img/facebook.png" width="40" alt="facebook"></a></div>
+		<div class="insta"><a href="https://instagram.com/maximkatut"><img src="img/insta.png" width="40" alt="instagram"></a></div>
+		<div class="linkedin"><a href="https://www.linkedin.com/in/maksim-baravy-b34b21139/"><img src="img/linkedin.png" width="40" alt="linkedin"></a></div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
